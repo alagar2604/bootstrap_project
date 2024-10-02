@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.sec1{
+    height: 90vh;
+}
+.navbar{
+    position: sticky !important;
+    top: 0;
+    /* z-index: 100; */
+}
+.all{
+    overflow: hidden;
+    padding-bottom: 20vh;
+}
+.main{
+    background-image: url("https://static.wixstatic.com/media/82fcd3_b176d276fee14ce5b59b94ab3ed98de5~mv2.jpg/v1/fill/w_1043,h_697,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_b176d276fee14ce5b59b94ab3ed98de5~mv2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2{
+    height: 40vh;
+}
+.sec3{
+    height: fit-content !important;
+    background-color: #F6F5EE !important;
+    
+
+}
+.sec4{
+    height: 30vh;
+    background-color: #F6F5EE !important;
+}
+.click{
+    width: fit-content !important;
+    background-color: #CDE7E4 !important;
+}
+.sec5{
+    height: fit-content;
+}
+.giftimage{
+    position: relative;
+    right: 4rem;
+}
+.giftrow{
+    background-color: #F6F5EE !important;
+}
+
+
+
+
+
+@media  screen and (max-width:1200px) {
+    .giftimage{
+        position: static;
+    }
+}
+.sec6{
+    height: fit-content;
+}
+.aboutimage{
+    background-image:linear-gradient(rgba(0, 128, 79, 0.5),rgba(0, 128, 79, 0.5)),url("https://static.wixstatic.com/media/82fcd3_7315bd7f381c4c0eb9c8734bb9120602~mv2.jpg/v1/fill/w_610,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_7315bd7f381c4c0eb9c8734bb9120602~mv2.jpg");
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.evenimage{
+    background-image:linear-gradient(rgba(128, 124, 0, 0.5),rgba(128, 124, 0, 0.5)),url("https://static.wixstatic.com/media/82fcd3_f607115d565c480fb107e9202339ca0e~mv2.jpeg/v1/fill/w_613,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_f607115d565c480fb107e9202339ca0e~mv2.jpeg");
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec7{
+    height: fit-content;
+    background-color: #CDE7E4 !important;
+}
+.g-container{
+    width: 180px;
+    height: 180px;
+}
+
+.g-container1{
+  
+    background-image: url("https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&w=600") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.g-container1:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)),url("https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&w=600")  !important;
+}
+.blink-text{
+    display: none;
+}
+.g-container:hover .blink-text,
+.g-container2:hover .blink-text,
+.g-container3:hover .blink-text,
+.g-container4:hover .blink-text,
+.g-container5:hover .blink-text,
+.g-container6:hover .blink-text,
+.g-container7:hover .blink-text,
+.g-container8:hover .blink-text,
+.g-container9:hover .blink-text,
+.g-container10:hover .blink-text,
+.g-container11:hover .blink-text,
+.g-container12:hover .blink-text
+{
+    display: block;
+}
+
+.g-container2{
+    background-image: url("https://images.pexels.com/photos/105588/pexels-photo-105588.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.g-container2:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)),url("https://images.pexels.com/photos/105588/pexels-photo-105588.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain  !important;
+}
+
+.g-container3{
+    background-image: url("https://images.pexels.com/photos/983587/pexels-photo-983587.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.g-container3:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/983587/pexels-photo-983587.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain  !important;
+}
+
+.g-container4{
+    background-image: url("https://images.pexels.com/photos/793765/pexels-photo-793765.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.g-container4:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/793765/pexels-photo-793765.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain  !important;
+}
+.g-container5{
+    background-image: url("https://images.pexels.com/photos/2781540/pexels-photo-2781540.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container5:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/2781540/pexels-photo-2781540.jpeg?auto=compress&cs=tinysrgb&w=600");
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.g-container5{
+    background-image: url("https://images.pexels.com/photos/2781540/pexels-photo-2781540.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container5:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/2781540/pexels-photo-2781540.jpeg?auto=compress&cs=tinysrgb&w=600");
+   
+}
+
+.g-container6{
+    background-image: url("https://images.pexels.com/photos/772518/pexels-photo-772518.png?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container6:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/772518/pexels-photo-772518.png?auto=compress&cs=tinysrgb&w=600");
+   
+}
+
+
+.g-container7{
+    background-image: url("https://images.pexels.com/photos/3807054/pexels-photo-3807054.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container7:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/3807054/pexels-photo-3807054.jpeg?auto=compress&cs=tinysrgb&w=600");
+   
+}
+.g-container8{
+    background-image: url("https://images.pexels.com/photos/1346381/pexels-photo-1346381.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container8:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/1346381/pexels-photo-1346381.jpeg?auto=compress&cs=tinysrgb&w=600");
+   
+}
+
+.g-container9{
+    background-image: url("https://images.pexels.com/photos/772513/pexels-photo-772513.png?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container9:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/772513/pexels-photo-772513.png?auto=compress&cs=tinysrgb&w=600");
+    
+}
+
+.g-container10{
+    background-image: url("https://images.pexels.com/photos/20141098/pexels-photo-20141098/free-photo-of-fish-in-can.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container10:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/20141098/pexels-photo-20141098/free-photo-of-fish-in-can.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+
+.g-container11{
+    background-image: url("https://images.pexels.com/photos/7368079/pexels-photo-7368079.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container11:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/7368079/pexels-photo-7368079.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+
+
+
+.g-container12{
+    background-image: url("https://images.pexels.com/photos/6416559/pexels-photo-6416559.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.g-container12:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 1, 0.5)), url("https://images.pexels.com/photos/6416559/pexels-photo-6416559.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.sec8{
+    height: fit-content;
+    background-color: #CDE7E4 !important;
+}
+
+
+
+
